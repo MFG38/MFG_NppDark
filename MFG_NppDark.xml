@@ -4,12 +4,29 @@
 	Description:        My personal custom Notepad++ theme. Modified off of the base of the Deep Black theme.
 	File name:          MFG_NppDark.xml
 	Created by:         Santtu "MFG38" Pesonen
-	Featured languages: Batch, Python
+	Featured languages: Batch, Python, XML
 	Note:               N/A
 -->
 
 <NotepadPlus>
     <LexerStyles>
+		<LexerType name="xml" desc="XML" ext="">
+            <WordsStyle name="XMLSTART" styleID="12" fgColor="AAAAFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="XMLEND" styleID="13" fgColor="AAAAFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="9" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="FF00FF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="59ACAC" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SINGLESTRING" styleID="7" fgColor="59ACAC" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG" styleID="1" fgColor="009D95" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGEND" styleID="11" fgColor="009D95" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="FF0000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="99CC99" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="008000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="C0C0C0" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CDATA" styleID="17" fgColor="FFCC00" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ENTITY" styleID="10" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="python" desc="Python" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENTLINE" styleID="1" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
