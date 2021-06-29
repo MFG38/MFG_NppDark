@@ -49,7 +49,7 @@
         </LexerType>
         <LexerType name="batch" desc="Batch" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="AAAAFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="AAAAFF" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="KEYWORDS" styleID="2" fgColor="35FFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
             <WordsStyle name="LABEL" styleID="3" fgColor="31FF31" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="HIDE SYMBOL" styleID="4" fgColor="FF00FF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
