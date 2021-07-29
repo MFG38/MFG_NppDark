@@ -10,7 +10,7 @@
 
 <NotepadPlus>
     <LexerStyles>
-		<LexerType name="html" desc="HTML" ext="">
+        <LexerType name="html" desc="HTML" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="9" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="NUMBER" styleID="5" fgColor="00BDBD" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
