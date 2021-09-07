@@ -38,7 +38,7 @@
             <WordsStyle name="VALUE" styleID="8" fgColor="99CC99" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="9" fgColor="00FF00" bgColor="000000" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="ID" styleID="10" fgColor="59ACAC" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="IMPORTANT" styleID="11" fgColor="99CC99" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IMPORTANT" styleID="11" fgColor="F0611A" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DIRECTIVE" styleID="12" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="xml" desc="XML" ext="">
