@@ -4,12 +4,13 @@
 	Description:        My personal custom Notepad++ theme. Modified off of the base of the Deep Black theme.
 	File name:          MFG_NppDark.xml
 	Created by:         Santtu "MFG38" Pesonen
-	Featured languages: Batch, CSS, HTML, Python, XML
+	Featured languages: Batch, CSS, HTML, JavaScript, Python, XML
 	Note:               N/A
 -->
 
 <NotepadPlus>
     <LexerStyles>
+		<!-- HTML -->
         <LexerType name="html" desc="HTML" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="9" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
@@ -26,6 +27,25 @@
             <WordsStyle name="VALUE" styleID="19" fgColor="00FFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ENTITY" styleID="10" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+		
+		<!-- JavaScript -->
+		 <LexerType name="javascript" desc="JavaScript" ext="">
+            <WordsStyle name="DEFAULT" styleID="41" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="45" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="WORD" styleID="46" fgColor="59ACAC" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORD" styleID="47" fgColor="009D95" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="STRINGRAW" styleID="20" fgColor="99CC99" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="99CC99" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SINGLESTRING" styleID="49" fgColor="99CC99" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SYMBOLS" styleID="50" fgColor="FF00FF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRINGEOL" styleID="51" fgColor="CCCCCC" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="52" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="42" fgColor="00FF00" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENTLINE" styleID="43" fgColor="00FF00" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="0080FF" bgColor="070707" fontName="" fontStyle="1" fontSize="" />
+        </LexerType>
+		
+		<!-- CSS -->
         <LexerType name="css" desc="CSS" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="TAG" styleID="1" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
@@ -41,6 +61,8 @@
             <WordsStyle name="IMPORTANT" styleID="11" fgColor="F0611A" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DIRECTIVE" styleID="12" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+		
+		<!-- XML -->
         <LexerType name="xml" desc="XML" ext="">
             <WordsStyle name="XMLSTART" styleID="12" fgColor="AAAAFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="XMLEND" styleID="13" fgColor="AAAAFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
@@ -58,6 +80,8 @@
             <WordsStyle name="CDATA" styleID="17" fgColor="FFCC00" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ENTITY" styleID="10" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+		
+		<!-- Python -->
         <LexerType name="python" desc="Python" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENTLINE" styleID="1" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
@@ -78,6 +102,8 @@
             <WordsStyle name="F TRIPLE" styleID="18" fgColor="FF8000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="F TRIPLEDOUBLE" styleID="19" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+		
+		<!-- Batch -->
         <LexerType name="batch" desc="Batch" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="AAAAFF" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
